@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "hello world"
+
+echo "foo"; echo "bar"
+
+readonly name="haruspring"
+
+echo "hello ${name} san"
