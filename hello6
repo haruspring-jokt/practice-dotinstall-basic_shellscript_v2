@@ -1,0 +1,19 @@
+#/bin/bash
+
+read -p "Name? " name
+# if test "$name" = "haruspring"
+# if [ "$name" = "haruspring" ]
+# then
+#     echo "welcome"
+# elif [ "$name" = "hk" ]
+# then
+#     echo "you are $name"
+# else
+#     echo "you are not allowed"
+# fi
+
+# = == != -z =~
+# if [[ $name == "haruspring" ]]; then
+if [[ -z $name ]]; then
+    echo "welcome"
+fi
